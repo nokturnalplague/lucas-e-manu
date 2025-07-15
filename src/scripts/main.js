@@ -2,6 +2,7 @@ console.log('nokturnalplague');
 
 // Aguarda o carregamento completo do DOM
 $(document).ready(function () {
+  const header = document.querySelector('.header-bg');
   const menu = document.querySelector('.menu-mobile');
   const links = document.querySelectorAll('.menu-mobile ul a');
   const menuToggle = document.getElementById('menu-toggle');
@@ -15,6 +16,7 @@ $(document).ready(function () {
       menu.style.top = '-100vh';
     } else {
       menu.style.top = '0';
+      header.style.position = 'fixed';
     }
 
     isMenuOpen = !isMenuOpen;
