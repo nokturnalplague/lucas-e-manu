@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script type="module" src="./src/scripts/main.js"></script>
 </head>
 <body id="index">
@@ -30,9 +31,12 @@
         </div>
       </nav>  
 
-      <nav class="menu-mobile">
-        <img id="menu-toggle" src="./src/img/icons/menu.svg" alt="Menu" width="24px" height="16px">
-      </nav>
+      <div id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
       <div class="header-menu-right">
         <ul class="font-1-m c1">
@@ -41,15 +45,18 @@
         </ul>
       </div>
     </div>
+
+    <nav class="menu-mobile">
+      <ul class="font-1-m c1">
+        <li><a href="#historia">Nossa História</a></li>
+        <li><a href="#orientacoes">Orientações</a></li>
+        <li><a href="#presentes">Escolha seu presente</a></li>
+        <li><a href="#presenca">Confirme sua presença!</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="menu-mobile-nav">
-    <ul class="menu-mobile-nav font-1-m c1">
-      <li><a href="#historia">Nossa História</a></li>
-      <li><a href="#orientacoes">Orientações</a></li>
-      <li><a href="#presenca">Confirme sua presença!</a></li>
-    </ul>
-  </div>
+
 
   <main class="intro-bg">
     <div class="intro">

@@ -1,0 +1,23 @@
+console.log('nokturnalplague')
+
+//MENU TOGGLE
+$(document).ready(function(){
+  $('#menu-toggle').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+
+//MENU MOBILE
+const menuToggle = document.getElementById('menu-toggle')
+const menu = document.querySelector('.menu-mobile')
+
+let isMenuOpen = false;
+
+menuToggle.addEventListener('click', () => {
+  if (isMenuOpen) {
+    menu.style.top = '-100vh';
+  } else {
+    menu.style.top = '85px';
+  }
+  isMenuOpen = !isMenuOpen;
+});
