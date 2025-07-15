@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy&display=swap');
+
+:root {
+  --font-display: 'Sorts Mill Goudy', Arial, Helvetica, sans-serif;
+  --font-body: 'Roboto', Arial, Helvetica, sans-serif;
+  --font-decor: 'Petit Formal Script', serif;
+}
+
+.font-1-xxl {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 1.25;
+}
+
+.font-1-xxl span {
+  color: var(--p1);
+}
+
+.font-1-xl {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-2-xl {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+.font-1-l {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-2-l {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.font-2-l-b {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1.5%;
+  text-transform: uppercase;
+}
+
+.font-1-m {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-1-m-b {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-2-m {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+
+.font-1-s {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-s {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.font-2-s {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1.4;
+}
+
+.font-1-xs {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1.33;
+}
