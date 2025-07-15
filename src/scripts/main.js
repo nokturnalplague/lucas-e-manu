@@ -17,7 +17,7 @@ menuToggle.addEventListener('click', () => {
   if (isMenuOpen) {
     menu.style.top = '-100vh';
   } else {
-    menu.style.top = '85px';
+    menu.style.top = '0';
   }
   isMenuOpen = !isMenuOpen;
 });
