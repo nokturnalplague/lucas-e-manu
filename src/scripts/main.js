@@ -1,33 +1,5 @@
 console.log('nokturnalplague');
 
-// Aguarda o carregamento completo do DOM
-$(document).ready(function () {
-  const header = document.querySelector('.header-bg');
-  const menu = document.querySelector('.menu-mobile');
-  const links = document.querySelectorAll('.menu-mobile ul a');
-  const menuToggle = document.getElementById('menu-toggle');
-  let isMenuOpen = false;
+import { iniciarMenu } from './menu.js';
 
-  // Ao clicar no botão do menu
-  $('#menu-toggle').click(function () {
-    $(this).toggleClass('open');
-
-    if (isMenuOpen) {
-      menu.style.top = '-100vh';
-    } else {
-      menu.style.top = '0';
-      header.style.position = 'fixed';
-    }
-
-    isMenuOpen = !isMenuOpen;
-  });
-
-  // Ao clicar em qualquer link do menu
-  links.forEach(link => {
-    link.addEventListener('click', () => {
-      menu.style.top = '-100vh';
-      $('#menu-toggle').removeClass('open');
-      isMenuOpen = false;
-    });
-  });
-});
+iniciarMenu();
