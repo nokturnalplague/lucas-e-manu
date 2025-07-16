@@ -1,8 +1,8 @@
 .intro-bg {
   background: var(--p5) url('../../img/dec/header-bg.svg') no-repeat center;
   background-size: cover;
-  width: 100%;
-  height: calc(100vh - 88px);
+  width: 100vw;
+  height: calc(100vh - 88px);box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .intro {
