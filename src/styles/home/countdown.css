@@ -1,0 +1,43 @@
+.countdown-bg {
+  background: var(--c2) url('../../img/dec/flower-light-bg.svg') no-repeat center;
+  background-size: 300px;
+}
+
+.countdown {
+  padding: 9.25rem 9.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown span {
+  letter-spacing: 1rem;
+}
+
+@media (max-width: 1500px) {
+  .countdown {
+    padding: 8rem 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .countdown span {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .countdown span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .countdown {
+    padding: 3rem 3rem;
+  }
+
+  .countdown span {
+    letter-spacing: 0.5rem;
+  }
+}

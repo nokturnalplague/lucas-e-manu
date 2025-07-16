@@ -1,5 +1,7 @@
 console.log('nokturnalplague');
 
-import { iniciarMenu } from './menu.js';
+import { countdown } from './countdown.js';
+import { menu } from './menu.js';
 
-iniciarMenu();
+menu();
+countdown();

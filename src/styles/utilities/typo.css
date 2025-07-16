@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy&display=swap');
+
+@font-face {
+  font-family: 'Ladyday';
+  src: url('../../fonts/Ladyday.otf') format('opentype'),
+       url('../../fonts/Ladyday.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --font-display: 'Sorts Mill Goudy', Arial, Helvetica, sans-serif;
   --font-body: 'Roboto', Arial, Helvetica, sans-serif;
-  --font-decor: 'Petit Formal Script', serif;
+  --font-decor: 'Ladyday', serif;
 }
 
 .font-1-xxl {
@@ -102,3 +110,4 @@
   font-size: .75rem;
   line-height: 1.33;
 }
+
