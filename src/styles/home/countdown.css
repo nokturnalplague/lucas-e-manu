@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 800px) {
+  .countdown-bg {
+    background-size: 100px;
+  }
+
   .countdown {
     padding: 3rem 3rem;
   }
