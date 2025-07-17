@@ -1,36 +1,40 @@
 export function menu() {
-  $(document).ready(function () {
-    const header = document.querySelector('.header-bg')
-    const menu = document.querySelector('.menu-mobile')
-    const links = document.querySelectorAll('.menu-mobile ul a')
-    const menuToggle = document.getElementById('menu-toggle')
-    let isMenuOpen = false
+  document.addEventListener('DOMContentLoaded', () => {
+    const header = document.querySelector('.header-bg');
+    const headerContainer = document.querySelector('.header');
+    const menu = document.querySelector('.menu-mobile');
+    const links = document.querySelectorAll('.menu-mobile ul a');
+    const menuToggle = document.getElementById('menu-toggle');
+    let isMenuOpen = false;
 
-    // Ao clicar no botão do menu
-    $('#menu-toggle').click(function () {
-      $(this).toggleClass('open')
+    const openMenu = () => {
+      menu.style.top = '0';
+      headerContainer.style.boxShadow = 'none';
+      setTimeout(() => {
+        header.style.position = 'fixed';
+      }, 300);
+      menuToggle.classList.add('open');
+      isMenuOpen = true;
+    };
 
-      if (isMenuOpen) {
-        menu.style.top = '-100vh'
-        header.style.position = 'static'
-      } else {
-        menu.style.top = '0'
-        setTimeout(() => {
-          header.style.position = 'fixed'
-        }, 800)
-      }
+    const closeMenu = () => {
+      menu.style.top = '-100vh';
+      header.style.position = 'static';
+      headerContainer.style.boxShadow = 'var(--shadow)';
+      menuToggle.classList.remove('open');
+      isMenuOpen = false;
+    };
 
-      isMenuOpen = !isMenuOpen
-    })
+    menuToggle.addEventListener('click', () => {
+      isMenuOpen ? closeMenu() : openMenu();
+    });
 
-    // Ao clicar em qualquer link do menu
     links.forEach(link => {
-      link.addEventListener('click', () => {
-        menu.style.top = '-100vh'
-        $('#menu-toggle').removeClass('open')
-        header.style.position = 'static'
-        isMenuOpen = false
-      })
-    })
-  })
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && isMenuOpen) closeMenu();
+    });
+  });
 }

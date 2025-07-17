@@ -1,8 +1,6 @@
-
 .header-bg {
   background: var(--p6);
-  box-shadow: 0 .125rem .125rem rgba(0,0,0,.1);
-  width: 100vw;
+  width: 100%;
 }
 
 .header {
@@ -13,10 +11,14 @@
   justify-content: space-between;
   padding: 2rem 9.25rem;
   z-index: 2;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.8s ease;  
 }
 
 .header ul {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 2.25rem;
 }
 
