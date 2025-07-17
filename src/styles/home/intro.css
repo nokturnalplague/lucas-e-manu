@@ -4,6 +4,7 @@
   width: 100%;
   height: calc(100vh - 88px);
   box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .1);
+  position: relative;
 }
 
 .intro {
