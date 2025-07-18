@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Sorts+Mill+Goudy&display=swap');
 
 @font-face {
   font-family: 'Ladyday';
   src: url('../../fonts/Ladyday.otf') format('opentype'),
        url('../../fonts/Ladyday.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 :root {
   --font-display: 'Sorts Mill Goudy', Arial, Helvetica, sans-serif;
-  --font-body: 'Roboto', Arial, Helvetica, sans-serif;
+  --font-body: 'EB Garamond', Arial, Helvetica, sans-serif;
   --font-decor: 'Ladyday', serif;
 }
 
