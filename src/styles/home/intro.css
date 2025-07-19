@@ -1,5 +1,5 @@
 .intro-bg {
-  background: var(--p5) url('../../img/dec/header-bg.svg') no-repeat center;
+  background: var(--p3) url('../../img/dec/header-bg.svg') no-repeat center;
   background-size: cover;
   width: 100%;
   height: calc(100vh - 88px);
