@@ -1,5 +1,5 @@
 .historia-bg {
-  background: var(--p3);
+  background: var(--p4);
   padding: 9.25rem 9.25rem;
   box-shadow: var(--shadow-top), var(--shadow);
   overflow-x: hidden;
@@ -14,7 +14,7 @@
   background: var(--c2);
   padding: 4rem 6rem;
   gap: 2rem;
-  outline: 2px solid var(--p5);
+  outline: 2px solid var(--p4);
   outline-offset: -1rem;
   box-shadow: var(--shadow);
   max-width: fit-content;
