@@ -3,7 +3,6 @@
   padding: 9.25rem 9.25rem;
   box-shadow: var(--shadow-top), var(--shadow);
   overflow-x: hidden;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
