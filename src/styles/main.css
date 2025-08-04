@@ -1,0 +1,10 @@
+@import url('./utilities/colors.css');
+@import url('./utilities/typo.css');
+
+@import url('./global/global.css');
+@import url('./global/header.css');
+
+@import url('./home/intro.css');
+@import url('./home/countdown.css');
+@import url('./home/historia.css');
+@import url('./home/galeria.css');
