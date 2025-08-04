@@ -1,0 +1,14 @@
+.container.orientacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.orientacoes-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.orientacoes-text span:first-of-type {
+  font-weight: bold;
+}
