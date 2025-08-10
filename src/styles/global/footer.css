@@ -52,7 +52,7 @@
 @media (max-width: 800px) {
   .footer {
     flex-direction: column;
-    padding: 1.5rem 1.5rem;
+    padding: 4rem 1.5rem;
   }
 
   .contato-item {

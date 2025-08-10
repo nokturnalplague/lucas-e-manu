@@ -25,9 +25,46 @@ form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
+  align-items: center;
 }
 
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: left;
+}
 
+form .quantidade-pessoas {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+input {
+  background: var(--c1);
+  border: 1px solid var(--c4);
+  padding: .5rem;
+}
+
+input::placeholder {
+  color: var(--c6);
+}
+
+form button {
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  form .quantidade-pessoas {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+}
 
 
 
