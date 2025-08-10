@@ -38,3 +38,30 @@ img {
   height: auto;
 }
 
+html { -webkit-text-size-adjust: 100%; }
+
+button,
+input,
+select,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;         /* use seu próprio radius se quiser */
+  font-size: 16px;          /* evita zoom ao focar no iPhone */
+  line-height: 1.2;         /* evita “pílula” alta demais */
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  margin: 0;
+}
+
+input::placeholder { color: var(--c6); opacity: 1; }
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body { -webkit-font-smoothing: antialiased; }
