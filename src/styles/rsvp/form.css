@@ -48,6 +48,7 @@ input {
   background: var(--c1);
   border: 1px solid var(--c4);
   padding: .5rem;
+  border-radius: 0;
 }
 
 input::placeholder {
