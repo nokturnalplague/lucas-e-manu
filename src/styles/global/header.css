@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 9.25rem;
+  padding: 1rem 9.25rem;
   position: relative;
   z-index: 999;
   box-shadow: var(--shadow);
@@ -20,6 +20,15 @@
   align-items: center;
   justify-content: space-between;
   gap: 2.25rem;
+}
+
+.header-menu-right ul li {
+  background: var(--c2);
+  padding: 1rem 2rem;
+  outline: 2px solid var(--p4);
+  outline-offset: -.5rem;
+  border-radius: 2rem;
+  line-height: 1;
 }
 
 .menu-toggle {

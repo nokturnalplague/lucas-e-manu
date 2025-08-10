@@ -20,7 +20,8 @@
   outline: 2px solid var(--p4);
   outline-offset: -1rem;
   box-shadow: var(--shadow);
-  max-width: fit-content;
+  max-width: 960px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }

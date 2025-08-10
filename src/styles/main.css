@@ -9,4 +9,7 @@
 @import url('./home/intro.css');
 @import url('./home/countdown.css');
 @import url('./home/galeria.css');
-@import url('./home/orientacoes.css');
+
+@import url('./orientacoes/orientacoes.css');
+
+@import url('./rsvp/form.css');

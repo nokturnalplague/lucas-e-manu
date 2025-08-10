@@ -1,12 +1,14 @@
 .galeria {
+  max-width: 960px;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 9.25rem 9.25rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 9.25rem 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 1500px) {
   .galeria {
-    grid-template-columns: 1fr 1fr 1fr;
     padding: 4rem 4rem;
   }
 }
@@ -17,13 +19,9 @@
     padding: 1.5rem 1.5rem;
   }
 
-  .galeria img:nth-child(3),
   .galeria img:nth-child(4),
   .galeria img:nth-child(5),
-  .galeria img:nth-child(8),
-  .galeria img:nth-child(11),
   .galeria img:nth-child(12) {
     display: none;
   }
-  
 }
