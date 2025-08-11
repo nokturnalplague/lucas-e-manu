@@ -1,7 +1,7 @@
 .botao-1 {
   background: var(--c2);
   padding: 1rem 2rem;
-  outline: 2px solid var(--p4);
+  outline: 1.5px solid var(--p4);
   outline-offset: -.5rem;
   border-radius: 2rem;
   line-height: 1;
@@ -13,7 +13,7 @@
 .botao-2 {
   background: var(--p5);
   padding: 1rem 2rem;
-  outline: 2px solid var(--c1);
+  outline: 1.5px solid var(--c1);
   outline-offset: -.5rem;
   border-radius: 2rem;
   line-height: 1;
