@@ -7,30 +7,28 @@
 }
 
 .presentes {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
   max-width: 960px;
   width: 100%;
-  margin: 0 auto 9.25rem auto;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto 9.25rem;
+  justify-items: center; 
 }
 
 .container-presente {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  max-width: 360px;
   background: var(--c2);
-  padding: 2rem 2rem;
+  padding: 2rem;
   gap: 2rem;
   outline: 2px solid var(--p4);
   outline-offset: -1rem;
   box-shadow: var(--shadow);
   position: relative;
-  width: 20%;
-  min-width: 240px;
 }
 
 .desc-preco {
