@@ -12,4 +12,8 @@
 
 @import url('./orientacoes/orientacoes.css');
 
-@import url('./rsvp/form.css');
+@import url('./rsvp/rsvp.css');
+
+@import url('./presentes/presentes.css');
+
+@import url('./orientacoes/orientacoes.css');

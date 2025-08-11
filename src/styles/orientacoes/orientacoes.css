@@ -1,3 +1,7 @@
+#orientacoes {
+  background: var(--c3);
+}
+
 .container.orientacoes {
   display: flex;
   flex-direction: column;

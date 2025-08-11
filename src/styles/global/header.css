@@ -22,6 +22,10 @@
   gap: 2.25rem;
 }
 
+a.ativo {
+  border-bottom: 1px solid var(--c1);
+}
+
 .menu-toggle {
   display: none;
 }
