@@ -2,7 +2,7 @@
   background: var(--p3) url('../../img/dec/header-bg.svg') no-repeat center;
   background-size: cover;
   width: 100%;
-  height: calc(100vh - 88px);
+  height: calc(100vh - 82px);
   box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .1);
 }
 
