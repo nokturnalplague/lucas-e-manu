@@ -57,6 +57,7 @@
 @media (max-width: 1000px) {
   .header {
     padding: 2rem 3rem;
+    justify-content: flex-end;
   }
 
   .header-menu-right {

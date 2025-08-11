@@ -61,10 +61,10 @@ form button {
 
 @media (max-width: 600px) {
   form .quantidade-pessoas {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 
