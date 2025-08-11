@@ -1,3 +1,53 @@
 #presentes {
   background: var(--c3);
 }
+
+.presentes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto 9.25rem auto;
+  gap: 1rem;
+
+}
+
+.container-presente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--c2);
+  padding: 2rem 2rem;
+  gap: 2rem;
+  outline: 2px solid var(--p4);
+  outline-offset: -1rem;
+  box-shadow: var(--shadow);
+  margin: 0 auto;
+  position: relative;
+}
+
+.desc-preco {
+  display: flex;
+  flex-direction: column;
+}
+
+.desc {
+  font-weight: bold;
+}
+
+.preco {
+  text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .presentes {
+      margin: 0 auto 7rem auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .presentes {
+      margin: 0 auto 5rem auto;
+  }
+}
