@@ -38,33 +38,25 @@ form div {
   text-align: left;
 }
 
-form .quantidade-pessoas {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-input {
+input, textarea {
   background: var(--c1);
   border: 1px solid var(--c4);
   padding: .5rem;
   border-radius: 0;
 }
 
+textarea {
+  height: 120px;
+}
+
 input::placeholder {
   color: var(--c6);
 }
 
+input:type
+
 form button {
   margin-top: 2rem;
-}
-
-@media (max-width: 600px) {
-  form .quantidade-pessoas {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
 }
 
 
