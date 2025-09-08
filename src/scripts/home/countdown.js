@@ -15,7 +15,7 @@ export function countdown() {
   var minutesFormat = minutes <= 9 ? '0' + minutes : minutes
   var secondsFormat = seconds <= 9 ? '0' + seconds : seconds
 
-   counter.innerHTML = daysFormat + ':' + hoursFormat + ':' + minutesFormat + ':' + secondsFormat
+  counter.innerHTML = daysFormat + ':' + hoursFormat + ':' + minutesFormat + ':' + secondsFormat
 
   if (timeLeft < 0) {
     clearInterval(x)
