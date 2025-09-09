@@ -22,6 +22,10 @@
   gap: 2.25rem;
 }
 
+.header a {
+  border: none;
+}
+
 a.ativo {
   border-bottom: 1px solid var(--c1);
 }
