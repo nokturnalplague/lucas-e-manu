@@ -20,11 +20,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 360px;
   background: var(--c2);
   padding: 2rem;
-  gap: 2rem;
+  gap: 1.5rem;
   outline: 2px solid var(--p4);
   outline-offset: -1rem;
   box-shadow: var(--shadow);
@@ -34,6 +34,7 @@
 .desc-preco {
   display: flex;
   flex-direction: column;
+  gap: .5rem;
 }
 
 .desc {
