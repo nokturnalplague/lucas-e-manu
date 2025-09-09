@@ -56,6 +56,10 @@ a.ativo {
   gap: 2rem;
 }
 
+.menu-mobile a {
+  border: none;
+}
+
 @media (max-width: 1500px) {
   .header {
     padding: 2rem 4rem;
