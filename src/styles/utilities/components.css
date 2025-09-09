@@ -54,6 +54,10 @@
   max-width: 80ch;
 }
 
+.container h2, .container h3 {
+  font-weight: bold;
+}
+
 .flower-2-left {
   position: absolute;
   width: 250px;

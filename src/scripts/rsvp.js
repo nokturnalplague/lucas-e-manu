@@ -18,7 +18,7 @@ export function rsvp() {
       `Observações: ${observacoes || '—'}`
     ].join('\n')
 
-    const numeroDestino = '5547999356035';
+    const numeroDestino = '5548984655802';
     const mensagemCodificada = encodeURIComponent(texto);
 
     const mobile = /iPhone|Android|iPad|iPod/i.test(navigator.userAgent);

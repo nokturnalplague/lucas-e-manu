@@ -1,0 +1,4 @@
+#orientacoes .container-bg.dicas {
+  background-color: var(--c3);
+  box-shadow: none;
+}
