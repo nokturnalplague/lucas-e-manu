@@ -13,6 +13,10 @@
   padding: 4rem 0;
 }
 
+.footer a {
+  border: none;
+}
+
 .contato-item {
   display: flex;
   flex-direction: column;
