@@ -51,9 +51,9 @@ select,
 textarea {
   -webkit-appearance: none;
   appearance: none;
-  border-radius: 0;         /* use seu próprio radius se quiser */
-  font-size: 16px;          /* evita zoom ao focar no iPhone */
-  line-height: 1.2;         /* evita “pílula” alta demais */
+  border-radius: 0;      
+  font-size: 16px;          
+  line-height: 1.2;         
 }
 
 input[type="number"] {
