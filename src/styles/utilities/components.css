@@ -4,10 +4,15 @@
   outline: 1.5px solid var(--p4);
   outline-offset: -.5rem;
   border-radius: 2rem;
-  line-height: 1;
+  line-height: normal;
   color: var(--p5);
   border: none;
   max-width: fit-content;
+  cursor: pointer;
+}
+
+.botao-1:hover {
+  background: var(--c1);
 }
 
 .botao-2 {
@@ -16,10 +21,15 @@
   outline: 1.5px solid var(--c1);
   outline-offset: -.5rem;
   border-radius: 2rem;
-  line-height: 1;
+  line-height: normal; 
   color: var(--c1);
   border: none;
   max-width: fit-content;
+  cursor: pointer;
+}
+
+.botao-2:hover {
+  background: var(--p6);
 }
 
 .container-bg {
