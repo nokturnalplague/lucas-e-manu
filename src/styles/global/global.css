@@ -13,6 +13,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   background: var(--c2);
+  -webkit-font-smoothing: antialiased; 
 }
 
 h1, h2, h3, h4, h5, h6, 
@@ -69,4 +70,10 @@ button {
   justify-content: center;
 }
 
-body { -webkit-font-smoothing: antialiased; }
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,   /* 0 = contorno, 1 = preenchido */
+    'wght' 400, /* espessura */
+    'GRAD' 0,   /* contraste */
+    'opsz' 48;  /* tamanho ótico */
+}

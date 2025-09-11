@@ -40,3 +40,44 @@
   border: 2px solid var(--p5);
   color: var(--p6);
 }
+
+.music-icon {
+  position: fixed;
+  bottom: 5%;
+  left: 0;
+  background: var(--p5);
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 10;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  position: fixed;
+  bottom: 5%;
+  left: 0;
+  background: var(--p5);
+  padding: 2rem;
+  outline: 2px solid var(--c1);
+  outline-offset: -.5rem;
+  z-index: 20;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.controles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controles span {
+  cursor: pointer;
+}
