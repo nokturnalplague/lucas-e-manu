@@ -6,10 +6,10 @@ import { rsvp } from './rsvp/rsvp.js';
 import { music } from './music/music.js'
 
 menu()
+music()
 
 if (document.getElementById('index')) {
   countdown()
-  music()
 }
 
 if (document.getElementById('rsvp')) {
