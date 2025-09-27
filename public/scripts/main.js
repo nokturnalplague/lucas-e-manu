@@ -4,6 +4,7 @@ import { menu } from './home/menu.js';
 import { countdown } from './home/countdown.js';
 import { rsvp } from './rsvp/rsvp.js';
 import { music } from './music/music.js'
+import { pagamento } from './presentes/pagamento.js';
 
 menu()
 music()
@@ -14,4 +15,8 @@ if (document.getElementById('index')) {
 
 if (document.getElementById('rsvp')) {
   rsvp()
+}
+
+if (document.getElementById('presentes')) {
+  pagamento()
 }
