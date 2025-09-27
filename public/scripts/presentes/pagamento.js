@@ -8,7 +8,7 @@ export function pagamento() {
       const price = parseFloat(botao.dataset.price);
 
       // Faz a requisição para criar a preferência
-      fetch("http://localhost:3000/api/create-preference", {
+      fetch("https://emanuele-e-lucas.com.br/api/create-preference", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
